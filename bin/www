@@ -8,6 +8,8 @@ var app = require('../app');
 var debug = require('debug')('build-and-burn:server');
 var http = require('http');
 
+const knex = require('knex')
+
 /**
  * Get port from environment and store in Express.
  */
